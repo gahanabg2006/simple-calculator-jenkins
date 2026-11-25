@@ -4,6 +4,7 @@ package com.calculator;
 public class Calculator {
 
     public int add(int a, int b) {
+        int unusedVariable = 100; // Intentional code smell for testing
         return a + b;
     }
 
